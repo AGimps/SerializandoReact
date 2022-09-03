@@ -1,10 +1,11 @@
 import "./App.css";
 import React from "react";
-import PaginaInicial from './componentes/login.jsx';
+import Rotas from "./componentes/rotas/rotas";
 
 export default function App() {
   return (
-    <PaginaInicial />
+    <div>
+      <Rotas />
+    </div>
   );
-  
 }

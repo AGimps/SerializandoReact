@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(90deg, #0b0c10, #1f2833);
+}
+
+h1 {
+  color: #66fcf1;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  color: #66fcf1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+h2,
+h4 {
+  color: #66fcf1;
+}
+
+li {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.h2-grupos{
+  text-align: center; padding-bottom: 10px;
+}
+
+.h3-grupos{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30%;
+}
+
+#mainPaginas {
+  margin-left: 50%;
+  padding-top: 10px;
+  transform: translateX(-50%);
+}
+
+.estilo_links {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.estilo_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.estilo_links li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+}
+
+.estilo_links li a:hover {
+  color: #45a29e;
+}
+
+.imagem-pad {
+  padding-right: 50px;
+}
+
+.pad-bottom {
+  padding-bottom: 10px;
+}
+
+.imagem-mainpage {
+  border-color: #c5c6c7;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.perfil {
+  display: grid;
+  justify-content: right;
+}
+
+.destaque {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+#textoDecoracaoLinks {
+  text-decoration: none;
+}
+
+.gruposFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  border-color: #c5c6c7;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.gruposAlign {
+  flex-basis: 50%;
+}
+
+.seriesFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  border-color: #c5c6c7;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.seriesAlign {
+  flex-basis: 50%;
+}
+
+.grupoDebate {
+  border-color: #c5c6c7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 900px;
+}
+
+#debateEspaco {
+  padding-bottom: 10px;
+}
